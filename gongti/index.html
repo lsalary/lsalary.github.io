@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>工体冰灯-北京冬季冰灯艺术展游玩攻略与观展指南</title>
+<meta name="description" content="工体冰灯是北京冬季热门的冰灯艺术展活动，本文整理工体冰灯的观展看点、冰雕冰灯艺术特色、游览路线建议、购票与交通提示、拍照技巧以及常见问题，帮助你在冬季更好地安排工体冰灯之行。">
+<meta name="keywords" content="工体冰灯,北京冰灯,冰灯艺术展,冬季冰雕,工体冬季活动,冰灯游玩攻略">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --ice-deep:#0b1e3a;
+  --ice-mid:#123a6b;
+  --ice-blue:#2f7fd1;
+  --ice-light:#8fd0ff;
+  --ice-glow:#d9f1ff;
+  --frost:#eef7ff;
+  --warm:#ffb347;
+  --text:#e8f3ff;
+  --text-dim:#a8c6e4;
+  --card:rgba(255,255,255,0.06);
+  --line:rgba(143,208,255,0.22);
+}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif;
+  background:
+    radial-gradient(1200px 600px at 15% -10%,rgba(47,127,209,0.35),transparent 60%),
+    radial-gradient(900px 500px at 90% 5%,rgba(143,208,255,0.18),transparent 55%),
+    linear-gradient(180deg,#071528 0%,#0b1e3a 45%,#081627 100%);
+  color:var(--text);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--ice-light);text-decoration:none;}
+a:hover{color:#fff;}
+.wrap{width:min(1180px,92%);margin:0 auto;}
+img{max-width:100%;display:block;}
+
+/* ===== 顶部 ===== */
+header.site-head{
+  position:sticky;top:0;z-index:50;
+  backdrop-filter:blur(12px);
+  background:rgba(7,21,40,0.82);
+  border-bottom:1px solid var(--line);
+}
+.head-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:18px;padding:14px 0;
+}
+.brand{display:flex;align-items:center;gap:12px;}
+.brand-mark{
+  width:42px;height:42px;border-radius:12px;
+  background:linear-gradient(140deg,#2f7fd1,#8fd0ff);
+  display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:18px;color:#06182f;
+  box-shadow:0 0 22px rgba(143,208,255,0.45);
+}
+.brand-text b{display:block;font-size:19px;letter-spacing:1px;}
+.brand-text span{font-size:12px;color:var(--text-dim);letter-spacing:2px;}
+nav.main-nav{display:flex;flex-wrap:wrap;gap:6px;}
+nav.main-nav a{
+  font-size:14px;padding:8px 14px;border-radius:999px;
+  color:var(--text-dim);border:1px solid transparent;transition:.25s;
+}
+nav.main-nav a:hover{color:#fff;background:rgba(143,208,255,0.12);border-color:var(--line);}
+.head-cta{
+  font-size:14px;padding:9px 18px;border-radius:999px;
+  background:linear-gradient(120deg,#2f7fd1,#8fd0ff);
+  color:#06182f;font-weight:700;white-space:nowrap;
+  box-shadow:0 6px 20px rgba(47,127,209,0.4);
+}
+.head-cta:hover{color:#06182f;filter:brightness(1.08);}
+
+/* ===== 首屏 ===== */
+.hero{
+  position:relative;overflow:hidden;
+  padding:70px 0 60px;
+  border-bottom:1px solid var(--line);
+}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:
+    radial-gradient(2px 2px at 12% 30%,rgba(255,255,255,0.75),transparent),
+    radial-gradient(2px 2px at 28% 68%,rgba(217,241,255,0.7),transparent),
+    radial-gradient(1.5px 1.5px at 46% 22%,rgba(255,255,255,0.6),transparent),
+    radial-gradient(2px 2px at 63% 58%,rgba(217,241,255,0.65),transparent),
+    radial-gradient(1.5px 1.5px at 78% 32%,rgba(255,255,255,0.55),transparent),
+    radial-gradient(2px 2px at 88% 74%,rgba(217,241,255,0.6),transparent);
+  opacity:.7;
+}
+.hero-grid{
+  position:relative;z-index:2;
+  display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center;
+}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:13px;letter-spacing:1px;color:var(--ice-light);
+  border:1px solid var(--line);border-radius:999px;
+  padding:6px 14px;margin-bottom:20px;background:rgba(143,208,255,0.08);
+}
+.hero-tag i{width:7px;height:7px;border-radius:50%;background:var(--warm);display:inline-block;}
+h1{
+  font-size:clamp(30px,4.4vw,50px);
+  line-height:1.25;letter-spacing:1px;font-weight:800;
+  background:linear-gradient(100deg,#ffffff 10%,#8fd0ff 55%,#d9f1ff 90%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  margin-bottom:18px;
+}
+.hero-lead{font-size:16px;color:var(--text-dim);max-width:620px;margin-bottom:26px;}
+.hero-lead strong{color:var(--ice-glow);font-weight:600;}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;}
+.btn{
+  display:inline-block;padding:12px 26px;border-radius:10px;
+  font-size:15px;font-weight:600;transition:.25s;border:1px solid transparent;
+}
+.btn-primary{background:linear-gradient(120deg,#2f7fd1,#8fd0ff);color:#06182f;}
+.btn-primary:hover{color:#06182f;transform:translateY(-2px);box-shadow:0 10px 26px rgba(47,127,209,0.45);}
+.btn-ghost{border-color:var(--line);color:var(--ice-light);background:rgba(143,208,255,0.06);}
+.btn-ghost:hover{color:#fff;background:rgba(143,208,255,0.16);}
+
+.hero-panel{
+  background:linear-gradient(160deg,rgba(47,127,209,0.22),rgba(11,30,58,0.7));
+  border:1px solid var(--line);border-radius:20px;padding:26px 24px;
+  box-shadow:0 20px 50px rgba(0,0,0,0.35);
+}
+.hero-panel h3{font-size:16px;letter-spacing:1px;margin-bottom:16px;color:#fff;}
+.hero-panel h3 span{font-size:12px;color:var(--text-dim);font-weight:400;margin-left:8px;letter-spacing:0;}
+.fact-list{list-style:none;display:grid;gap:12px;}
+.fact-list li{
+  display:flex;gap:12px;align-items:flex-start;
+  font-size:14px;color:var(--text-dim);
+  padding-bottom:12px;border-bottom:1px dashed rgba(143,208,255,0.18);
+}
+.fact-list li:last-child{border-bottom:none;padding-bottom:0;}
+.fact-key{
+  flex:0 0 76px;color:var(--ice-light);font-weight:600;font-size:13px;
+}
+
+/* ===== 通用区块 ===== */
+section.block{padding:62px 0;border-bottom:1px solid rgba(143,208,255,0.12);}
+.sec-head{margin-bottom:34px;max-width:760px;}
+.sec-head .kicker{
+  font-size:13px;letter-spacing:3px;color:var(--ice-light);
+  text-transform:uppercase;margin-bottom:10px;display:block;
+}
+.sec-head h2{
+  font-size:clamp(22px,2.8vw,30px);font-weight:800;letter-spacing:1px;
+  color:#fff;margin-bottom:12px;
+}
+.sec-head p{font-size:15px;color:var(--text-dim);}
+
+/* 看点卡片 */
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
+.card{
+  background:var(--card);border:1px solid var(--line);
+  border-radius:16px;padding:24px 22px;transition:.3s;
+}
+.card:hover{transform:translateY(-4px);border-color:rgba(143,208,255,0.5);background:rgba(143,208,255,0.09);}
+.card .num{
+  font-size:13px;font-weight:700;color:var(--warm);letter-spacing:2px;margin-bottom:10px;display:block;
+}
+.card h3{font-size:17px;color:#fff;margin-bottom:10px;font-weight:700;}
+.card p{font-size:14px;color:var(--text-dim);}
+
+/* 时间线 / 路线 */
+.route{display:grid;gap:18px;}
+.route-item{
+  display:grid;grid-template-columns:64px 1fr;gap:18px;
+  background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;
+}
+.route-step{
+  width:52px;height:52px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:17px;color:#06182f;
+  background:linear-gradient(140deg,#8fd0ff,#2f7fd1);
+}
+.route-item h3{font-size:16px;color:#fff;margin-bottom:6px;}
+.route-item p{font-size:14px;color:var(--text-dim);}
+
+/* 提示列表 */
+.tips{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+.tip{
+  display:flex;gap:14px;align-items:flex-start;
+  background:rgba(143,208,255,0.06);border-left:3px solid var(--ice-blue);
+  border-radius:0 12px 12px 0;padding:16px 18px;
+}
+.tip .ico{
+  flex:0 0 30px;height:30px;border-radius:8px;
+  background:rgba(143,208,255,0.18);color:var(--ice-light);
+  display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:700;
+}
+.tip h4{font-size:15px;color:#fff;margin-bottom:4px;font-weight:700;}
+.tip p{font-size:13.5px;color:var(--text-dim);}
+
+/* 表格 */
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;}
+table{width:100%;border-collapse:collapse;min-width:600px;font-size:14px;}
+thead th{
+  background:rgba(47,127,209,0.22);color:#fff;font-weight:700;
+  text-align:left;padding:14px 18px;letter-spacing:.5px;white-space:nowrap;
+}
+tbody td{padding:14px 18px;color:var(--text-dim);border-top:1px solid rgba(143,208,255,0.14);}
+tbody tr:hover td{background:rgba(143,208,255,0.05);color:var(--text);}
+tbody td:first-child{color:var(--ice-glow);font-weight:600;}
+
+/* 拍照技巧 */
+.shot-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+.shot{
+  border:1px dashed var(--line);border-radius:14px;padding:20px 18px;
+  background:linear-gradient(180deg,rgba(143,208,255,0.08),transparent);
+}
+.shot h4{font-size:15px;color:#fff;margin-bottom:8px;}
+.shot p{font-size:13.5px;color:var(--text-dim);}
+
+/* FAQ */
+.faq{display:grid;gap:14px;max-width:900px;}
+details{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:16px 20px;transition:.25s;
+}
+details[open]{border-color:rgba(143,208,255,0.5);background:rgba(143,208,255,0.08);}
+summary{
+  cursor:pointer;font-size:15.5px;font-weight:600;color:#fff;list-style:none;
+  display:flex;justify-content:space-between;align-items:center;gap:14px;
+}
+summary::-webkit-details-marker{display:none;}
+summary::after{content:"+";font-size:20px;color:var(--ice-light);font-weight:400;line-height:1;}
+details[open] summary::after{content:"–";}
+details p{font-size:14px;color:var(--text-dim);margin-top:12px;}
+
+/* 侧栏信息 */
+.aside-box{
+  background:linear-gradient(160deg,rgba(47,127,209,0.2),rgba(11,30,58,0.6));
+  border:1px solid var(--line);border-radius:16px;padding:24px 22px;
+}
+.aside-box h3{font-size:16px;color:#fff;margin-bottom:14px;}
+.aside-box ul{list-style:none;display:grid;gap:10px;}
+.aside-box li{font-size:14px;color:var(--text-dim);padding-left:16px;position:relative;}
+.aside-box li::before{
+  content:"";position:absolute;left:0;top:9px;width:6px;height:6px;
+  border-radius:50%;background:var(--ice-light);
+}
+
+/* 页脚 */
+footer.site-foot{
+  padding:44px 0 30px;background:rgba(4,12,24,0.85);
+  border-top:1px solid var(--line);
+}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:34px;margin-bottom:30px;}
+.foot-grid h4{font-size:15px;color:#fff;margin-bottom:14px;}
+.foot-grid p{font-size:13.5px;color:var(--text-dim);max-width:360px;}
+.foot-links{list-style:none;display:grid;gap:9px;}
+.foot-links a{font-size:13.5px;color:var(--text-dim);}
+.foot-links a:hover{color:var(--ice-light);}
+.foot-bottom{
+  border-top:1px solid rgba(143,208,255,0.14);padding-top:20px;
+  font-size:13px;color:#7f9cba;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
+}
+
+/* 响应式 */
+@media (max-width:980px){
+  .hero-grid{grid-template-columns:1fr;gap:34px;}
+  .grid-3{grid-template-columns:repeat(2,1fr);}
+  .shot-grid{grid-template-columns:repeat(2,1fr);}
+  .foot-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:720px){
+  .head-inner{flex-wrap:wrap;gap:12px;}
+  nav.main-nav{order:3;width:100%;justify-content:flex-start;overflow-x:auto;}
+  .head-cta{display:none;}
+  .grid-3,.grid-2,.tips,.shot-grid{grid-template-columns:1fr;}
+  .route-item{grid-template-columns:1fr;gap:12px;}
+  section.block{padding:46px 0;}
+  .hero{padding:48px 0 44px;}
+  .foot-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <div class="brand">
+      <div class="brand-mark">冰</div>
+      <div class="brand-text">
+        <b>工体冰灯</b>
+        <span>ICE LANTERN GUIDE</span>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="#intro">活动概览</a>
+      <a href="#highlights">冰灯看点</a>
+      <a href="#route">游览路线</a>
+      <a href="#tips">实用提示</a>
+      <a href="#photo">拍照技巧</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a class="head-cta" href="#intro">开始了解</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="hero-tag"><i></i>北京冬季冰灯艺术主题</span>
+        <h1>工体冰灯：冬季冰雕与灯光艺术观赏指南</h1>
+        <p class="hero-lead">
+          工体冰灯是北京冬季以冰雕、冰灯和灯光艺术为核心的观展活动，
+          依托工人体育场周边的场地条件，把北方传统冰灯工艺与现代灯光装置结合起来。
+          如果你正打算安排一次冬夜出行，<strong>先弄清楚看什么、怎么走、几点去最合适</strong>，
+          再决定行程，会比临时到场更从容。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#highlights">查看冰灯看点</a>
+          <a class="btn btn-ghost" href="#tips">实用提示</a>
+        </div>
+      </div>
+      <aside class="hero-panel">
+        <h3>观展前需确认的信息 <span>以官方发布为准</span></h3>
+        <ul class="fact-list">
+          <li><span class="fact-key">活动性质</span><span>季节性冰灯艺术展，通常在冬季低温时段举办</span></li>
+          <li><span class="fact-key">最佳时段</span><span>天黑后至闭园前，灯光效果最完整</span></li>
+          <li><span class="fact-key">适合人群</span><span>亲子家庭、情侣、摄影爱好者、外地游客</span></li>
+          <li><span class="fact-key">关键准备</span><span>保暖衣物、防滑鞋、充电宝、手套</span></li>
+          <li><span class="fact-key">信息渠道</span><span>场地方公告与官方售票平台，出行前务必核对</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 活动概览 -->
+  <section class="block" id="intro">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">Overview</span>
+        <h2>工体冰灯是什么样的活动</h2>
+        <p>
+          冰灯是中国北方冬季特有的民间艺术形式，做法是在低温环境下用冰块雕刻造型，
+          再在冰体内部或外部布置光源，让冰的透光性成为视觉主体。
+          工体冰灯延续了这一思路，同时融入了现代灯光装置、场景布景与互动区域，
+          整体更接近一场可步行游览的冬夜灯光艺术展。
+        </p>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <span class="num">01 / 艺术形式</span>
+          <h3>冰雕与冰灯结合</h3>
+          <p>以透明冰体雕刻建筑、动物、人物等造型，配合内嵌灯源，冰的折射与灯的颜色共同形成层次感，白天与夜晚呈现完全不同的观感。</p>
+        </article>
+        <article class="card">
+          <span class="num">02 / 场地特点</span>
+          <h3>城市中心的冬夜场景</h3>
+          <p>位于城市核心区域，交通相对便利，适合下班后或周末晚间安排，不必像郊区冰雪项目那样预留一整天时间。</p>
+        </article>
+        <article class="card">
+          <span class="num">03 / 体验方式</span>
+          <h3>步行游览为主</h3>
+          <p>以步行动线串联不同主题区域，边走边看，节奏由自己掌握，适合慢逛、拍照，也适合带孩子边走边讲解。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 冰灯看点 -->
+  <section class="block" id="highlights">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">Highlights</span>
+        <h2>冰灯展里值得留意的几类看点</h2>
+        <p>不同年份的布展主题会调整，但冰灯展的核心看点通常集中在以下几个方面。以下为常见类型，具体内容以当年现场布置为准。</p>
+      </div>
+      <div class="grid-2">
+        <article class="card">
+          <span class="num">看点一</span>
+          <h3>大型主题冰雕</h3>
+          <p>体量较大的冰雕作品通常放在动线起点或中心位置，是全场视觉重心。这类作品细节多、结构复杂，建议先整体看轮廓，再靠近观察雕刻纹理和冰体内部的透光效果。</p>
+        </article>
+        <article class="card">
+          <span class="num">看点二</span>
+          <h3>冰灯长廊与拱门</h3>
+          <p>用冰砖砌成的长廊或拱门，灯光从冰体内部透出，形成连续的色彩通道。人在其中穿行时，冰壁的反光会随角度变化，是拍照出片率较高的区域。</p>
+        </article>
+        <article class="card">
+          <span class="num">看点三</span>
+          <h3>灯光装置与场景布景</h3>
+          <p>除传统冰雕外，常会搭配灯光装置、投影或主题场景，用光影营造氛围。这类区域更适合拍氛围感照片，而不是单纯拍冰体本身。</p>
+        </article>
+        <article class="card">
+          <span class="num">看点四</span>
+          <h3>互动与亲子区域</h3>
+          <p>部分年份会设置滑冰道、冰上互动或儿童友好的小型装置。带孩子前往时，可以优先安排这类区域，避免孩子长时间在低温中静态观展。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 游览路线 -->
+  <section class="block" id="route">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">Route</span>
+        <h2>一条比较省力的游览顺序</h2>
+        <p>冰灯展多在户外低温环境，合理排序能减少来回走动和长时间受冻。下面这条动线适用于大多数以步行为主的冰灯展，可按现场指引调整。</p>
+      </div>
+      <div class="route">
+        <div class="route-item">
+          <div class="route-step">1</div>
+          <div>
+            <h3>入场后先走完主环线</h3>
+            <p>刚进场时体力和注意力最好，先用较快的速度走完整条主线，对全场分布形成整体印象，同时也能判断哪些区域值得回头细看。</p>
+          </div>
+        </div>
+        <div class="route-item">
+          <div class="route-step">2</div>
+          <div>
+            <h3>锁定重点作品细看</h3>
+            <p>回到大型主题冰雕和冰灯长廊，放慢速度观察细节。此时人流量通常已经分散，拍摄和观赏的体验会更好。</p>
+          </div>
+        </div>
+        <div class="route-item">
+          <div class="route-step">3</div>
+          <div>
+            <h3>安排互动与休息</h3>
+            <p>把滑冰、互动装置或热饮休息安排在行程中段，让身体回暖。长时间待在低温环境容易手脚发僵，中途回暖能明显提升后半程的体验。</p>
+          </div>
+        </div>
+        <div class="route-item">
+          <div class="route-step">4</div>
+          <div>
+            <h3>闭园前补拍与收尾</h3>
+            <p>临近结束时段人流减少，适合补拍之前没拍好的角度。离场前确认随身物品，尤其是手套、围巾、充电宝这类容易遗落的小件。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 实用提示 + 表格 -->
+  <section class="block" id="tips">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">Practical Tips</span>
+        <h2>出发前值得先想清楚的几件事</h2>
+        <p>冰灯展的体验很大程度上取决于准备是否充分。以下提示不涉及具体价格与场次，具体安排请以场地方官方发布为准。</p>
+      </div>
+
+      <div class="tips">
+        <div class="tip">
+          <div class="ico">衣</div>
+          <div>
+            <h4>保暖优先于好看</h4>
+            <p>户外停留时间往往超过一小时，建议分层穿衣，内层排汗、中层保暖、外层防风。帽子、手套、厚袜比多穿一件外套更有效。</p>
+          </div>
+        </div>
+        <div class="tip">
+          <div class="ico">鞋</div>
+          <div>
+            <h4>鞋底防滑很关键</h4>
+            <p>冰面周边容易结霜或积水结冰，选择防滑纹路深的鞋，避免穿平底光滑皮鞋或高跟鞋，老人和儿童尤其要注意。</p>
+          </div>
+        </div>
+        <div class="tip">
+          <div class="ico">电</div>
+          <div>
+            <h4>低温耗电快</h4>
+            <p>手机在低温下电量下降明显，拍照和扫码都会加速耗电。建议带充电宝并贴身存放，避免放在外侧口袋受冻。</p>
+          </div>
+        </div>
+        <div class="tip">
+          <div class="ico">时</div>
+          <div>
+            <h4>避开入场高峰</h4>
+            <p>周末和节假日开场前后通常人最多。如果时间灵活，可以选择工作日或稍晚一些的时段，游览和拍照都会更从容。</p>
+          </div>
+        </div>
+        <div class="tip">
+          <div class="ico">票</div>
+          <div>
+            <h4>提前确认票务规则</h4>
+            <p>关注是否需要预约、是否分时段入场、儿童与老人是否有相应政策。通过官方渠道购票，避免非正规渠道带来的风险。</p>
+          </div>
+        </div>
+        <div class="tip">
+          <div class="ico">行</div>
+          <div>
+            <h4>优先公共交通</h4>
+            <p>核心区域冬季晚间停车压力较大，地铁和公交通常更省心。出行前查看实时路况与末班车时间，避免散场后滞留。</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:34px;">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>准备事项</th>
+                <th>建议做法</th>
+                <th>原因</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>穿着</td>
+                <td>分层穿衣 + 帽子手套围巾</td>
+                <td>户外停留久，便于根据体感增减</td>
+              </tr>
+              <tr>
+                <td>鞋具</td>
+                <td>防滑保暖的平底鞋或雪地靴</td>
+                <td>冰面湿滑，降低摔倒风险</td>
+              </tr>
+              <tr>
+                <td>设备</td>
+                <td>充电宝、备用电池，贴身存放</td>
+                <td>低温环境下电池续航明显缩短</td>
+              </tr>
+              <tr>
+                <td>时间</td>
+                <td>天黑后前往，避开开场高峰</td>
+                <td>灯光效果完整，人流相对分散</td>
+              </tr>
+              <tr>
+                <td>票务</td>
+                <td>提前通过官方渠道确认与购买</td>
+                <td>避免现场排队或信息不对称</td>
+              </tr>
+              <tr>
+                <td>交通</td>
+                <td>地铁公交优先，预留返程时间</td>
+                <td>晚间核心区域通行压力较大</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 拍照技巧 -->
+  <section class="block" id="photo">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">Photography</span>
+        <h2>在冰灯现场拍出好照片的四个方向</h2>
+        <p>冰灯的光线条件比较特殊：主体本身发光，周围环境偏暗，容易出现过曝或噪点。调整思路比换设备更有效。</p>
+      </div>
+      <div class="shot-grid">
+        <div class="shot">
+          <h4>控制曝光</h4>
+          <p>冰灯本身是光源，直接拍容易过曝发白。拍摄时可适当降低曝光补偿，保留冰体内部的纹理和颜色层次。</p>
+        </div>
+        <div class="shot">
+          <h4>利用前景</h4>
+          <p>用近处的冰砖、栏杆或树枝作为前景，能增强画面纵深，避免照片看起来平铺直叙。</p>
+        </div>
+        <div class="shot">
+          <h4>稳定机身</h4>
+          <p>夜间快门速度偏慢，手持容易糊。可以借助栏杆、墙面支撑，或使用手机夜景模式保持稳定。</p>
+        </div>
+        <div class="shot">
+          <h4>注意冷暖对比</h4>
+          <p>冰灯的冷色调与暖色灯饰同框时对比强烈，是较容易出效果的构图方式，注意让两种光源在画面中形成呼应。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section class="block" id="faq" style="border-bottom:none;">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">FAQ</span>
+        <h2>关于工体冰灯的常见问题</h2>
+        <p>以下回答基于冰灯展的一般规律整理，具体场次、开放时间与票务政策请以场地方官方信息为准。</p>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>工体冰灯一般什么时候举办？</summary>
+          <p>冰灯依赖低温环境，通常安排在冬季气温较低的时间段举办，具体起止日期每年不同。建议在计划出行前，通过场地方官方渠道确认当年的开放时间与场次安排。</p>
+        </details>
+        <details>
+          <summary>白天去和晚上去有什么区别？</summary>
+          <p>白天主要能看清冰雕的造型结构和雕刻细节，但灯光效果不明显；天黑之后灯光点亮，冰体的透光和折射效果才完整呈现。如果只能选一个时段，多数人会更推荐晚间前往。</p>
+        </details>
+        <details>
+          <summary>适合带小孩或老人一起去吗？</summary>
+          <p>整体以步行为主，路线通常不算剧烈，适合家庭出行。但户外低温对老人和幼儿的耐受度是主要考验，建议控制游览时长，做好保暖，并安排中途休息回暖。</p>
+        </details>
+        <details>
+          <summary>需要提前买票吗？</summary>
+          <p>热门时段现场人流较集中，提前通过官方渠道了解票务规则并完成预约或购票，通常能减少排队等待。是否必须预约、是否限流，以当年官方公告为准。</p>
+        </details>
+        <details>
+          <summary>游览大概需要多长时间？</summary>
+          <p>取决于场地规模和游览节奏。走马观花可能不到一小时，如果包含拍照、互动和休息，通常需要一到两小时甚至更久。低温环境下不建议长时间连续停留，可以中途到室内区域回暖。</p>
+        </details>
+        <details>
+          <summary>拍照需要注意什么？</summary>
+          <p>注意不要为了取景跨越围栏或触碰冰体，冰雕在受力后可能损坏，也存在安全隐患。使用三脚架前先确认现场是否允许，避免影响其他游客通行。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 侧栏式补充 -->
+  <section class="block" style="border-bottom:none;">
+    <div class="wrap">
+      <div class="grid-2">
+        <div class="aside-box">
+          <h3>适合这样安排行程</h3>
+          <ul>
+            <li>下班后直接前往，晚间游览一到两小时</li>
+            <li>周末下午先逛周边，天黑后进场看灯</li>
+            <li>外地游客可与市区其他冬季项目组合安排</li>
+            <li>摄影爱好者可预留更长时间等待人流减少</li>
+          </ul>
+        </div>
+        <div class="aside-box">
+          <h3>需要避开的几个误区</h3>
+          <ul>
+            <li>只穿一件厚外套，忽略帽子手套的作用</li>
+            <li>穿光滑鞋底，在冰面附近行走风险较高</li>
+            <li>手机放在外侧口袋，低温下快速掉电</li>
+            <li>临近闭园才到场，游览时间被大幅压缩</li>
+            <li>依赖非官方渠道获取场次与票务信息</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>关于本站</h4>
+        <p>本站围绕工体冰灯这一冬季冰灯艺术主题，整理观展看点、游览路线、实用提示与常见问题，帮助计划前往的游客更高效地安排行程。页面内容为一般性参考，具体活动信息请以场地方官方发布为准。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul class="foot-links">
+          <li><a href="#intro">活动概览</a></li>
+          <li><a href="#highlights">冰灯看点</a></li>
+          <li><a href="#route">游览路线</a></li>
+          <li><a href="#tips">实用提示</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>更多参考</h4>
+        <ul class="foot-links">
+          <li><a href="#photo">拍照技巧</a></li>
+          <li><a href="#faq">常见问题</a></li>
+          <li><a href="#tips">出行准备清单</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>工体冰灯 · 冬季冰灯艺术观展参考</span>
+      <span>活动时间、票务与场地安排以官方信息为准</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var links = document.querySelectorAll('nav.main-nav a[href^="#"]');
+  links.forEach(function(link){
+    link.addEventListener('click', function(e){
+      var id = this.getAttribute('href').slice(1);
+      var target = document.getElementById(id);
+      if(target){
+        e.preventDefault();
+        var top = target.getBoundingClientRect().top + window.pageYOffset - 72;
+        window.scrollTo({top: top, behavior: 'smooth'});
+      }
+    });
+  });
+})();
+</script>
+
+</body>
+                                       </html>
